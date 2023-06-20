@@ -3,12 +3,20 @@
     margin: 0;
     /* box-sizing: border-box; */
     object-fit: cover;
+    font-family: 'Tajawal', sans-serif;
 }
+
+
+h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
 
 h1, h2{
     padding: 10px;
     text-align: center;
-
+    font-weight: bold;
 }
 
 
@@ -16,6 +24,8 @@ img {
     height: 300px;
     width: 300px;    
     object-fit: cover;
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
 }
 
 
@@ -32,7 +42,114 @@ article {
 
 
 
-.container-michis{
-    border: 10%;
-    color: black;
+
+
+button{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 20px;
+    width: 150px;
+    background: azure;
+    cursor: pointer;
+    border-radius: none;
+    font-weight: 700;
+}
+
+
+
+
+
+.container-michis{    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 25rem), 1fr));
+    border: 10px;
+    
+    border-radius: 15px;
+    margin: 0 2em;
+    background-color:papayawhip;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 4em 0.5em;
+}
+
+#recargar{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+/* //////////////////   SUBE LA FOTO DE TU MICHI  /////////////////// */
+
+
+
+#uploadingMichi{
+    margin: 5rem 10em; 
+    background-image: url(cats-7683031_1280.jpg);
+    background-size: 35%;
+}
+
+
+#uploadingForm{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#file {
+    display: flex;  
+    font-weight: bold;
+    padding: 0px 20px;
+}
+
+#upload-button{
+    margin: 0;
+    padding: 0;   
+}
+
+
+
+.titulo-subir{
+    font-style: italic;
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+
+.subir{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/* MICHIS FAVORITOS  */
+
+
+h2 #michis-fav{
+    font-style: oblique;
+    font-size: 800px;
+}
+
+
+article .favs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center; 
+    margin: 4em 25em;
 }
