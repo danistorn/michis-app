@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    object-fit: cover;
+}
+
+h1, h2{
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+img {
+    height: 300px;
+    width: 300px;    
+    object-fit: cover;
+}
+
+
+
+div {
+    display: flex;
+
+}
+
+article {
+    margin: 0.9rem;
+}
+
+
+
+
+.container-michis{
+    border: 10%;
+    color: black;
+}
