@@ -7,7 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@200;300;900&family=Tajawal:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/favoritos.css">
+    <link rel="stylesheet" type="text/css" href="./css/subir.css">
     <title>Gatitos aleatorios</title>
 </head>
 <body>
@@ -58,7 +60,7 @@
 
         <form id="uploadingForm"> <!--normalmente tendriamos un action="", una URL a donde pudieramos enviar la info de nuestro formulario como queryparameters.  -->
             <input id="file" type="file" name="file" />
-            <button class="subir" type="button" onclick="uploadMichiPhoto()">Subir foto de michi</button>
+            <button class="btn-subir" type="button" onclick="uploadMichiPhoto()">Subir foto de michi</button>
         </form>
     </section>
     
@@ -67,7 +69,7 @@
 
     <section id="favoriteMichis">
         
-        <h2 id="michis-fav">Gatitos favoritos</h2>
+        <h2 id="michis-fav">♥ Michis Favoritos ♥</h2>
         
         <article class="favs">
             <img id="img1" width="300" alt="Foto gatito aleatorio">

@@ -1,0 +1,14 @@
+
+h2 #michis-fav{
+    font-style: oblique;
+    font-size: 800px;
+    font-weight: bold;
+}
+
+
+article .favs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center; 
+    margin: 4em 25em;
+}

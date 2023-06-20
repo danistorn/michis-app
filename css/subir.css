@@ -1,0 +1,45 @@
+
+#uploadingMichi{
+    margin: 5rem 10em; 
+    background-image: url(../cats-7683031_1280.jpg);
+    background-size: 40%;
+}
+
+
+#uploadingForm{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#file {
+    display: flex;  
+    font-weight: bold;
+    padding: 0px 20px;
+}
+
+#upload-button{
+    margin: 0;
+    padding: 0;   
+}
+
+
+
+.titulo-subir{
+    font-style: italic;
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+
+.btn-subir{
+    font-weight: bold;
+}
+
+
+
+@media(max-width: 425px) {    
+    #uploadingMichi{
+        margin: 5rem 2em;
+        background-size: 70%;       
+    }
+}
